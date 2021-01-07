@@ -336,6 +336,30 @@ body#front.with-cu-identity #header form {
 }
 
 /****************************************
+ * dev and beta header styles
+ ****************************************/
+.beta-header {
+  background-color: #ED0202 !important;
+}
+.beta-header a.return-link {
+  font-size: 14px;
+  font-weight: normal;
+  display: inline-block;
+  position: relative;
+  top: -5px;
+}
+.beta-header a.return-link-abs {
+  color: #3333ff;
+  font-style: italic;
+}
+.beta-header svg.beta-exclamation {
+  width: 1em;
+  height: 1em;
+  float: left;
+  padding-top: .1em;
+  margin-right: .25em;
+}
+/****************************************
  * Main
  ****************************************/
 main {
